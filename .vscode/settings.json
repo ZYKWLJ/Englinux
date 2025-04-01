@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "copyright.h": "c",
+        "color.h": "c",
+        "main.h": "c",
+        "endsay.h": "c",
+        "execute.h": "c",
+        "help.h": "c",
+        "print.h": "c",
+        "clear.h": "c",
+        "search.h": "c",
+        "lexer.h": "c",
+        "error.h": "c",
+        "two_token.h": "c",
+        "one_token.h": "c",
+        "three_token.h": "c",
+        "is_all_digit.h": "c",
+        "ctype.h": "c",
+        "stdio.h": "c"
+    }
+}
