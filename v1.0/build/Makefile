@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/display/author.o: src/display/author.c.o
+.PHONY : src/display/author.o
+
+# target to build an object file
+src/display/author.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/author.c.o
+.PHONY : src/display/author.c.o
+
+src/display/author.i: src/display/author.c.i
+.PHONY : src/display/author.i
+
+# target to preprocess a source file
+src/display/author.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/author.c.i
+.PHONY : src/display/author.c.i
+
+src/display/author.s: src/display/author.c.s
+.PHONY : src/display/author.s
+
+# target to generate assembly for a file
+src/display/author.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/author.c.s
+.PHONY : src/display/author.c.s
+
 src/display/copyRight.o: src/display/copyRight.c.o
 .PHONY : src/display/copyRight.o
 
@@ -249,6 +273,30 @@ src/display/error.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/error.c.s
 .PHONY : src/display/error.c.s
 
+src/display/find_help.o: src/display/find_help.c.o
+.PHONY : src/display/find_help.o
+
+# target to build an object file
+src/display/find_help.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/find_help.c.o
+.PHONY : src/display/find_help.c.o
+
+src/display/find_help.i: src/display/find_help.c.i
+.PHONY : src/display/find_help.i
+
+# target to preprocess a source file
+src/display/find_help.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/find_help.c.i
+.PHONY : src/display/find_help.c.i
+
+src/display/find_help.s: src/display/find_help.c.s
+.PHONY : src/display/find_help.s
+
+# target to generate assembly for a file
+src/display/find_help.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/find_help.c.s
+.PHONY : src/display/find_help.c.s
+
 src/display/print_help.o: src/display/print_help.c.o
 .PHONY : src/display/print_help.o
 
@@ -272,6 +320,30 @@ src/display/print_help.s: src/display/print_help.c.s
 src/display/print_help.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/print_help.c.s
 .PHONY : src/display/print_help.c.s
+
+src/display/print_other.o: src/display/print_other.c.o
+.PHONY : src/display/print_other.o
+
+# target to build an object file
+src/display/print_other.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/print_other.c.o
+.PHONY : src/display/print_other.c.o
+
+src/display/print_other.i: src/display/print_other.c.i
+.PHONY : src/display/print_other.i
+
+# target to preprocess a source file
+src/display/print_other.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/print_other.c.i
+.PHONY : src/display/print_other.c.i
+
+src/display/print_other.s: src/display/print_other.c.s
+.PHONY : src/display/print_other.s
+
+# target to generate assembly for a file
+src/display/print_other.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/display/print_other.c.s
+.PHONY : src/display/print_other.c.s
 
 src/display/print_words.o: src/display/print_words.c.o
 .PHONY : src/display/print_words.o
@@ -1986,6 +2058,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/display/author.o"
+	@echo "... src/display/author.i"
+	@echo "... src/display/author.s"
 	@echo "... src/display/copyRight.o"
 	@echo "... src/display/copyRight.i"
 	@echo "... src/display/copyRight.s"
@@ -2001,9 +2076,15 @@ help:
 	@echo "... src/display/error.o"
 	@echo "... src/display/error.i"
 	@echo "... src/display/error.s"
+	@echo "... src/display/find_help.o"
+	@echo "... src/display/find_help.i"
+	@echo "... src/display/find_help.s"
 	@echo "... src/display/print_help.o"
 	@echo "... src/display/print_help.i"
 	@echo "... src/display/print_help.s"
+	@echo "... src/display/print_other.o"
+	@echo "... src/display/print_other.i"
+	@echo "... src/display/print_other.s"
 	@echo "... src/display/print_words.o"
 	@echo "... src/display/print_words.i"
 	@echo "... src/display/print_words.s"

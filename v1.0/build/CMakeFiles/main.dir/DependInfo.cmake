@@ -8,12 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/eyk/1code/EngLinux/v1.0/src/display/author.c" "CMakeFiles/main.dir/src/display/author.c.o" "gcc" "CMakeFiles/main.dir/src/display/author.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/display/copyRight.c" "CMakeFiles/main.dir/src/display/copyRight.c.o" "gcc" "CMakeFiles/main.dir/src/display/copyRight.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/display/display.c" "CMakeFiles/main.dir/src/display/display.c.o" "gcc" "CMakeFiles/main.dir/src/display/display.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/display/display_width.c" "CMakeFiles/main.dir/src/display/display_width.c.o" "gcc" "CMakeFiles/main.dir/src/display/display_width.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/display/endSay.c" "CMakeFiles/main.dir/src/display/endSay.c.o" "gcc" "CMakeFiles/main.dir/src/display/endSay.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/display/error.c" "CMakeFiles/main.dir/src/display/error.c.o" "gcc" "CMakeFiles/main.dir/src/display/error.c.o.d"
+  "/home/eyk/1code/EngLinux/v1.0/src/display/find_help.c" "CMakeFiles/main.dir/src/display/find_help.c.o" "gcc" "CMakeFiles/main.dir/src/display/find_help.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/display/print_help.c" "CMakeFiles/main.dir/src/display/print_help.c.o" "gcc" "CMakeFiles/main.dir/src/display/print_help.c.o.d"
+  "/home/eyk/1code/EngLinux/v1.0/src/display/print_other.c" "CMakeFiles/main.dir/src/display/print_other.c.o" "gcc" "CMakeFiles/main.dir/src/display/print_other.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/display/print_words.c" "CMakeFiles/main.dir/src/display/print_words.c.o" "gcc" "CMakeFiles/main.dir/src/display/print_words.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/execute/clear.c" "CMakeFiles/main.dir/src/execute/clear.c.o" "gcc" "CMakeFiles/main.dir/src/execute/clear.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/execute/execute.c" "CMakeFiles/main.dir/src/execute/execute.c.o" "gcc" "CMakeFiles/main.dir/src/execute/execute.c.o.d"

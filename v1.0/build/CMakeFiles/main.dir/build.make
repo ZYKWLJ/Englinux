@@ -69,10 +69,24 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
+CMakeFiles/main.dir/src/display/author.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/display/author.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/author.c
+CMakeFiles/main.dir/src/display/author.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/src/display/author.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/author.c.o -MF CMakeFiles/main.dir/src/display/author.c.o.d -o CMakeFiles/main.dir/src/display/author.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/author.c
+
+CMakeFiles/main.dir/src/display/author.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/display/author.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eyk/1code/EngLinux/v1.0/src/display/author.c > CMakeFiles/main.dir/src/display/author.c.i
+
+CMakeFiles/main.dir/src/display/author.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/display/author.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/EngLinux/v1.0/src/display/author.c -o CMakeFiles/main.dir/src/display/author.c.s
+
 CMakeFiles/main.dir/src/display/copyRight.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/display/copyRight.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/copyRight.c
 CMakeFiles/main.dir/src/display/copyRight.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/src/display/copyRight.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/display/copyRight.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/copyRight.c.o -MF CMakeFiles/main.dir/src/display/copyRight.c.o.d -o CMakeFiles/main.dir/src/display/copyRight.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/copyRight.c
 
 CMakeFiles/main.dir/src/display/copyRight.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/main.dir/src/display/copyRight.c.s: cmake_force
 CMakeFiles/main.dir/src/display/display.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/display/display.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/display.c
 CMakeFiles/main.dir/src/display/display.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/display/display.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/display/display.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/display.c.o -MF CMakeFiles/main.dir/src/display/display.c.o.d -o CMakeFiles/main.dir/src/display/display.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/display.c
 
 CMakeFiles/main.dir/src/display/display.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/main.dir/src/display/display.c.s: cmake_force
 CMakeFiles/main.dir/src/display/display_width.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/display/display_width.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/display_width.c
 CMakeFiles/main.dir/src/display/display_width.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/display/display_width.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/src/display/display_width.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/display_width.c.o -MF CMakeFiles/main.dir/src/display/display_width.c.o.d -o CMakeFiles/main.dir/src/display/display_width.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/display_width.c
 
 CMakeFiles/main.dir/src/display/display_width.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/main.dir/src/display/display_width.c.s: cmake_force
 CMakeFiles/main.dir/src/display/endSay.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/display/endSay.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/endSay.c
 CMakeFiles/main.dir/src/display/endSay.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/src/display/endSay.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/src/display/endSay.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/endSay.c.o -MF CMakeFiles/main.dir/src/display/endSay.c.o.d -o CMakeFiles/main.dir/src/display/endSay.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/endSay.c
 
 CMakeFiles/main.dir/src/display/endSay.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/main.dir/src/display/endSay.c.s: cmake_force
 CMakeFiles/main.dir/src/display/error.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/display/error.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/error.c
 CMakeFiles/main.dir/src/display/error.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/src/display/error.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/src/display/error.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/error.c.o -MF CMakeFiles/main.dir/src/display/error.c.o.d -o CMakeFiles/main.dir/src/display/error.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/error.c
 
 CMakeFiles/main.dir/src/display/error.c.i: cmake_force
@@ -139,10 +153,24 @@ CMakeFiles/main.dir/src/display/error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/display/error.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/EngLinux/v1.0/src/display/error.c -o CMakeFiles/main.dir/src/display/error.c.s
 
+CMakeFiles/main.dir/src/display/find_help.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/display/find_help.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/find_help.c
+CMakeFiles/main.dir/src/display/find_help.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/src/display/find_help.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/find_help.c.o -MF CMakeFiles/main.dir/src/display/find_help.c.o.d -o CMakeFiles/main.dir/src/display/find_help.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/find_help.c
+
+CMakeFiles/main.dir/src/display/find_help.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/display/find_help.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eyk/1code/EngLinux/v1.0/src/display/find_help.c > CMakeFiles/main.dir/src/display/find_help.c.i
+
+CMakeFiles/main.dir/src/display/find_help.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/display/find_help.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/EngLinux/v1.0/src/display/find_help.c -o CMakeFiles/main.dir/src/display/find_help.c.s
+
 CMakeFiles/main.dir/src/display/print_help.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/display/print_help.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/print_help.c
 CMakeFiles/main.dir/src/display/print_help.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/src/display/print_help.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/src/display/print_help.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/print_help.c.o -MF CMakeFiles/main.dir/src/display/print_help.c.o.d -o CMakeFiles/main.dir/src/display/print_help.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/print_help.c
 
 CMakeFiles/main.dir/src/display/print_help.c.i: cmake_force
@@ -153,10 +181,24 @@ CMakeFiles/main.dir/src/display/print_help.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/display/print_help.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/EngLinux/v1.0/src/display/print_help.c -o CMakeFiles/main.dir/src/display/print_help.c.s
 
+CMakeFiles/main.dir/src/display/print_other.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/display/print_other.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/print_other.c
+CMakeFiles/main.dir/src/display/print_other.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/src/display/print_other.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/print_other.c.o -MF CMakeFiles/main.dir/src/display/print_other.c.o.d -o CMakeFiles/main.dir/src/display/print_other.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/print_other.c
+
+CMakeFiles/main.dir/src/display/print_other.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/display/print_other.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eyk/1code/EngLinux/v1.0/src/display/print_other.c > CMakeFiles/main.dir/src/display/print_other.c.i
+
+CMakeFiles/main.dir/src/display/print_other.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/display/print_other.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eyk/1code/EngLinux/v1.0/src/display/print_other.c -o CMakeFiles/main.dir/src/display/print_other.c.s
+
 CMakeFiles/main.dir/src/display/print_words.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/display/print_words.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/print_words.c
 CMakeFiles/main.dir/src/display/print_words.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/src/display/print_words.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/src/display/print_words.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/display/print_words.c.o -MF CMakeFiles/main.dir/src/display/print_words.c.o.d -o CMakeFiles/main.dir/src/display/print_words.c.o -c /home/eyk/1code/EngLinux/v1.0/src/display/print_words.c
 
 CMakeFiles/main.dir/src/display/print_words.c.i: cmake_force
@@ -170,7 +212,7 @@ CMakeFiles/main.dir/src/display/print_words.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/clear.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/clear.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/clear.c
 CMakeFiles/main.dir/src/execute/clear.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/src/execute/clear.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/src/execute/clear.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/clear.c.o -MF CMakeFiles/main.dir/src/execute/clear.c.o.d -o CMakeFiles/main.dir/src/execute/clear.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/clear.c
 
 CMakeFiles/main.dir/src/execute/clear.c.i: cmake_force
@@ -184,7 +226,7 @@ CMakeFiles/main.dir/src/execute/clear.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/execute.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/execute.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute.c
 CMakeFiles/main.dir/src/execute/execute.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/src/execute/execute.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/src/execute/execute.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/execute.c.o -MF CMakeFiles/main.dir/src/execute/execute.c.o.d -o CMakeFiles/main.dir/src/execute/execute.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/execute.c
 
 CMakeFiles/main.dir/src/execute/execute.c.i: cmake_force
@@ -198,7 +240,7 @@ CMakeFiles/main.dir/src/execute/execute.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/execute_four_token.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/execute_four_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_four_token.c
 CMakeFiles/main.dir/src/execute/execute_four_token.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/src/execute/execute_four_token.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/src/execute/execute_four_token.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/execute_four_token.c.o -MF CMakeFiles/main.dir/src/execute/execute_four_token.c.o.d -o CMakeFiles/main.dir/src/execute/execute_four_token.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/execute_four_token.c
 
 CMakeFiles/main.dir/src/execute/execute_four_token.c.i: cmake_force
@@ -212,7 +254,7 @@ CMakeFiles/main.dir/src/execute/execute_four_token.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/execute_one_token.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/execute_one_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_one_token.c
 CMakeFiles/main.dir/src/execute/execute_one_token.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/src/execute/execute_one_token.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/main.dir/src/execute/execute_one_token.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/execute_one_token.c.o -MF CMakeFiles/main.dir/src/execute/execute_one_token.c.o.d -o CMakeFiles/main.dir/src/execute/execute_one_token.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/execute_one_token.c
 
 CMakeFiles/main.dir/src/execute/execute_one_token.c.i: cmake_force
@@ -226,7 +268,7 @@ CMakeFiles/main.dir/src/execute/execute_one_token.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/execute_three_token.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/execute_three_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_three_token.c
 CMakeFiles/main.dir/src/execute/execute_three_token.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/src/execute/execute_three_token.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/main.dir/src/execute/execute_three_token.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/execute_three_token.c.o -MF CMakeFiles/main.dir/src/execute/execute_three_token.c.o.d -o CMakeFiles/main.dir/src/execute/execute_three_token.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/execute_three_token.c
 
 CMakeFiles/main.dir/src/execute/execute_three_token.c.i: cmake_force
@@ -240,7 +282,7 @@ CMakeFiles/main.dir/src/execute/execute_three_token.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/execute_two_token.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/execute_two_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_two_token.c
 CMakeFiles/main.dir/src/execute/execute_two_token.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/src/execute/execute_two_token.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/src/execute/execute_two_token.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/execute_two_token.c.o -MF CMakeFiles/main.dir/src/execute/execute_two_token.c.o.d -o CMakeFiles/main.dir/src/execute/execute_two_token.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/execute_two_token.c
 
 CMakeFiles/main.dir/src/execute/execute_two_token.c.i: cmake_force
@@ -254,7 +296,7 @@ CMakeFiles/main.dir/src/execute/execute_two_token.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/find.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/find.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/find.c
 CMakeFiles/main.dir/src/execute/find.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/main.dir/src/execute/find.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/main.dir/src/execute/find.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/find.c.o -MF CMakeFiles/main.dir/src/execute/find.c.o.d -o CMakeFiles/main.dir/src/execute/find.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/find.c
 
 CMakeFiles/main.dir/src/execute/find.c.i: cmake_force
@@ -268,7 +310,7 @@ CMakeFiles/main.dir/src/execute/find.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/help.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/help.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/help.c
 CMakeFiles/main.dir/src/execute/help.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/main.dir/src/execute/help.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/main.dir/src/execute/help.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/help.c.o -MF CMakeFiles/main.dir/src/execute/help.c.o.d -o CMakeFiles/main.dir/src/execute/help.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/help.c
 
 CMakeFiles/main.dir/src/execute/help.c.i: cmake_force
@@ -282,7 +324,7 @@ CMakeFiles/main.dir/src/execute/help.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/is_all_digit.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/is_all_digit.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/is_all_digit.c
 CMakeFiles/main.dir/src/execute/is_all_digit.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/src/execute/is_all_digit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/main.dir/src/execute/is_all_digit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/is_all_digit.c.o -MF CMakeFiles/main.dir/src/execute/is_all_digit.c.o.d -o CMakeFiles/main.dir/src/execute/is_all_digit.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/is_all_digit.c
 
 CMakeFiles/main.dir/src/execute/is_all_digit.c.i: cmake_force
@@ -296,7 +338,7 @@ CMakeFiles/main.dir/src/execute/is_all_digit.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/match.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/match.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/match.c
 CMakeFiles/main.dir/src/execute/match.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/main.dir/src/execute/match.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/main.dir/src/execute/match.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/match.c.o -MF CMakeFiles/main.dir/src/execute/match.c.o.d -o CMakeFiles/main.dir/src/execute/match.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/match.c
 
 CMakeFiles/main.dir/src/execute/match.c.i: cmake_force
@@ -310,7 +352,7 @@ CMakeFiles/main.dir/src/execute/match.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/parser_first_token.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/parser_first_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/parser_first_token.c
 CMakeFiles/main.dir/src/execute/parser_first_token.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/main.dir/src/execute/parser_first_token.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/main.dir/src/execute/parser_first_token.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/parser_first_token.c.o -MF CMakeFiles/main.dir/src/execute/parser_first_token.c.o.d -o CMakeFiles/main.dir/src/execute/parser_first_token.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/parser_first_token.c
 
 CMakeFiles/main.dir/src/execute/parser_first_token.c.i: cmake_force
@@ -324,7 +366,7 @@ CMakeFiles/main.dir/src/execute/parser_first_token.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/parser_fourth_token.c
 CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o -MF CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o.d -o CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/parser_fourth_token.c
 
 CMakeFiles/main.dir/src/execute/parser_fourth_token.c.i: cmake_force
@@ -338,7 +380,7 @@ CMakeFiles/main.dir/src/execute/parser_fourth_token.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/parser_second_token.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/parser_second_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/parser_second_token.c
 CMakeFiles/main.dir/src/execute/parser_second_token.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/main.dir/src/execute/parser_second_token.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/main.dir/src/execute/parser_second_token.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/parser_second_token.c.o -MF CMakeFiles/main.dir/src/execute/parser_second_token.c.o.d -o CMakeFiles/main.dir/src/execute/parser_second_token.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/parser_second_token.c
 
 CMakeFiles/main.dir/src/execute/parser_second_token.c.i: cmake_force
@@ -352,7 +394,7 @@ CMakeFiles/main.dir/src/execute/parser_second_token.c.s: cmake_force
 CMakeFiles/main.dir/src/execute/parser_third_token.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/execute/parser_third_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/parser_third_token.c
 CMakeFiles/main.dir/src/execute/parser_third_token.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/main.dir/src/execute/parser_third_token.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/main.dir/src/execute/parser_third_token.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/execute/parser_third_token.c.o -MF CMakeFiles/main.dir/src/execute/parser_third_token.c.o.d -o CMakeFiles/main.dir/src/execute/parser_third_token.c.o -c /home/eyk/1code/EngLinux/v1.0/src/execute/parser_third_token.c
 
 CMakeFiles/main.dir/src/execute/parser_third_token.c.i: cmake_force
@@ -366,7 +408,7 @@ CMakeFiles/main.dir/src/execute/parser_third_token.c.s: cmake_force
 CMakeFiles/main.dir/src/lexer/lexer.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/lexer/lexer.c.o: /home/eyk/1code/EngLinux/v1.0/src/lexer/lexer.c
 CMakeFiles/main.dir/src/lexer/lexer.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/main.dir/src/lexer/lexer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/main.dir/src/lexer/lexer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/lexer/lexer.c.o -MF CMakeFiles/main.dir/src/lexer/lexer.c.o.d -o CMakeFiles/main.dir/src/lexer/lexer.c.o -c /home/eyk/1code/EngLinux/v1.0/src/lexer/lexer.c
 
 CMakeFiles/main.dir/src/lexer/lexer.c.i: cmake_force
@@ -380,7 +422,7 @@ CMakeFiles/main.dir/src/lexer/lexer.c.s: cmake_force
 CMakeFiles/main.dir/src/main.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.c.o: /home/eyk/1code/EngLinux/v1.0/src/main.c
 CMakeFiles/main.dir/src/main.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/main.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/main.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.c.o -MF CMakeFiles/main.dir/src/main.c.o.d -o CMakeFiles/main.dir/src/main.c.o -c /home/eyk/1code/EngLinux/v1.0/src/main.c
 
 CMakeFiles/main.dir/src/main.c.i: cmake_force
@@ -394,7 +436,7 @@ CMakeFiles/main.dir/src/main.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4.c
 CMakeFiles/main.dir/src/words_lib/cet4.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/main.dir/src/words_lib/cet4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/main.dir/src/words_lib/cet4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4.c
 
 CMakeFiles/main.dir/src/words_lib/cet4.c.i: cmake_force
@@ -408,7 +450,7 @@ CMakeFiles/main.dir/src/words_lib/cet4.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_a.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_a.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.i: cmake_force
@@ -422,7 +464,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_a.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_b.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_b.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.i: cmake_force
@@ -436,7 +478,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_b.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_c.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_c.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.i: cmake_force
@@ -450,7 +492,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_c.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_d.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_d.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.i: cmake_force
@@ -464,7 +506,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_d.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_e.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_e.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.i: cmake_force
@@ -478,7 +520,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_e.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_f.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_f.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.i: cmake_force
@@ -492,7 +534,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_f.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_g.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_g.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.i: cmake_force
@@ -506,7 +548,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_g.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_h.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_h.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.i: cmake_force
@@ -520,7 +562,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_h.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_i.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_i.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.i: cmake_force
@@ -534,7 +576,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_i.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_j.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_j.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.i: cmake_force
@@ -548,7 +590,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_j.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_k.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_k.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.i: cmake_force
@@ -562,7 +604,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_k.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_l.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_l.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.i: cmake_force
@@ -576,7 +618,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_l.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_m.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_m.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.i: cmake_force
@@ -590,7 +632,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_m.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_n.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_n.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.i: cmake_force
@@ -604,7 +646,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_n.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_o.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_o.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.i: cmake_force
@@ -618,7 +660,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_o.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_p.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_p.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.i: cmake_force
@@ -632,7 +674,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_p.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_q.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_q.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.i: cmake_force
@@ -646,7 +688,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_q.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_r.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_r.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.i: cmake_force
@@ -660,7 +702,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_r.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_s.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_s.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.i: cmake_force
@@ -674,7 +716,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_s.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_t.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_t.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.i: cmake_force
@@ -688,7 +730,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_t.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_u.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_u.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.i: cmake_force
@@ -702,7 +744,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_u.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_v.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_v.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.i: cmake_force
@@ -716,7 +758,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_v.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_w.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_w.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.i: cmake_force
@@ -730,7 +772,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_w.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_y.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_y.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.i: cmake_force
@@ -744,7 +786,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_y.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_z.c
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.o -MF CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_z.c
 
 CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.i: cmake_force
@@ -758,7 +800,7 @@ CMakeFiles/main.dir/src/words_lib/cet4/cet4_z.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6.c
 CMakeFiles/main.dir/src/words_lib/cet6.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/main.dir/src/words_lib/cet6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/main.dir/src/words_lib/cet6.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6.c
 
 CMakeFiles/main.dir/src/words_lib/cet6.c.i: cmake_force
@@ -772,7 +814,7 @@ CMakeFiles/main.dir/src/words_lib/cet6.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_a.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_a.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.i: cmake_force
@@ -786,7 +828,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_a.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_b.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_b.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.i: cmake_force
@@ -800,7 +842,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_b.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_c.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_c.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.i: cmake_force
@@ -814,7 +856,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_c.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_d.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_d.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.i: cmake_force
@@ -828,7 +870,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_d.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_e.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_e.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.i: cmake_force
@@ -842,7 +884,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_e.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_f.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_f.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.i: cmake_force
@@ -856,7 +898,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_f.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_g.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_g.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.i: cmake_force
@@ -870,7 +912,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_g.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_h.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_h.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.i: cmake_force
@@ -884,7 +926,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_h.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_i.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_i.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.i: cmake_force
@@ -898,7 +940,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_i.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_j.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_j.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.i: cmake_force
@@ -912,7 +954,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_j.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_k.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_k.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.i: cmake_force
@@ -926,7 +968,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_k.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_l.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_l.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.i: cmake_force
@@ -940,7 +982,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_l.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_m.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_m.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.i: cmake_force
@@ -954,7 +996,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_m.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_n.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_n.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.i: cmake_force
@@ -968,7 +1010,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_n.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_o.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_o.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.i: cmake_force
@@ -982,7 +1024,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_o.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_p.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_p.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.i: cmake_force
@@ -996,7 +1038,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_p.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_q.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_q.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.i: cmake_force
@@ -1010,7 +1052,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_q.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_r.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_r.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.i: cmake_force
@@ -1024,7 +1066,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_r.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_s.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_s.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.i: cmake_force
@@ -1038,7 +1080,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_s.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_t.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_t.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.i: cmake_force
@@ -1052,7 +1094,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_t.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_u.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_u.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.i: cmake_force
@@ -1066,7 +1108,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_u.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_v.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_v.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.i: cmake_force
@@ -1080,7 +1122,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_v.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_w.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_w.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.i: cmake_force
@@ -1094,7 +1136,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_w.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_y.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_y.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.i: cmake_force
@@ -1108,7 +1150,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_y.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_z.c
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.o -MF CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.o.d -o CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_z.c
 
 CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.i: cmake_force
@@ -1122,7 +1164,7 @@ CMakeFiles/main.dir/src/words_lib/cet6/cet6_z.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/word_set.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/word_set.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/word_set.c
 CMakeFiles/main.dir/src/words_lib/word_set.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/main.dir/src/words_lib/word_set.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/main.dir/src/words_lib/word_set.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/word_set.c.o -MF CMakeFiles/main.dir/src/words_lib/word_set.c.o.d -o CMakeFiles/main.dir/src/words_lib/word_set.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/word_set.c
 
 CMakeFiles/main.dir/src/words_lib/word_set.c.i: cmake_force
@@ -1136,7 +1178,7 @@ CMakeFiles/main.dir/src/words_lib/word_set.c.s: cmake_force
 CMakeFiles/main.dir/src/words_lib/words.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/words_lib/words.c
 CMakeFiles/main.dir/src/words_lib/words.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/main.dir/src/words_lib/words.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/main.dir/src/words_lib/words.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/words_lib/words.c.o -MF CMakeFiles/main.dir/src/words_lib/words.c.o.d -o CMakeFiles/main.dir/src/words_lib/words.c.o -c /home/eyk/1code/EngLinux/v1.0/src/words_lib/words.c
 
 CMakeFiles/main.dir/src/words_lib/words.c.i: cmake_force
@@ -1149,12 +1191,15 @@ CMakeFiles/main.dir/src/words_lib/words.c.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/src/display/author.c.o" \
 "CMakeFiles/main.dir/src/display/copyRight.c.o" \
 "CMakeFiles/main.dir/src/display/display.c.o" \
 "CMakeFiles/main.dir/src/display/display_width.c.o" \
 "CMakeFiles/main.dir/src/display/endSay.c.o" \
 "CMakeFiles/main.dir/src/display/error.c.o" \
+"CMakeFiles/main.dir/src/display/find_help.c.o" \
 "CMakeFiles/main.dir/src/display/print_help.c.o" \
+"CMakeFiles/main.dir/src/display/print_other.c.o" \
 "CMakeFiles/main.dir/src/display/print_words.c.o" \
 "CMakeFiles/main.dir/src/execute/clear.c.o" \
 "CMakeFiles/main.dir/src/execute/execute.c.o" \
@@ -1230,12 +1275,15 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+/home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/author.c.o
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/copyRight.c.o
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/display.c.o
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/display_width.c.o
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/endSay.c.o
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/error.c.o
+/home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/find_help.c.o
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/print_help.c.o
+/home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/print_other.c.o
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/display/print_words.c.o
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/execute/clear.c.o
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/src/execute/execute.c.o
@@ -1310,7 +1358,7 @@ main_EXTERNAL_OBJECTS =
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/build.make
 /home/eyk/1code/EngLinux/v1.0/bin/main: /usr/lib/x86_64-linux-gnu/libreadline.so
 /home/eyk/1code/EngLinux/v1.0/bin/main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Linking C executable /home/eyk/1code/EngLinux/v1.0/bin/main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eyk/1code/EngLinux/v1.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking C executable /home/eyk/1code/EngLinux/v1.0/bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

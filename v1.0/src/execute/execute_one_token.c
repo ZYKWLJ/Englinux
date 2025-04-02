@@ -4,6 +4,7 @@ void execute_one_token(char *token[], int token_num, char *origin_str)
     if (strcmp(token[0], "help") == 0)
     {
         help();
+        find_help();
         return;
     }
     else if (strcmp(token[0], "clear") == 0)
@@ -15,9 +16,10 @@ void execute_one_token(char *token[], int token_num, char *origin_str)
     {
         exit_signal_handler(2);
         return;
-    }else if (strcmp(token[0], "author") == 0)
+    }
+    else if (strcmp(token[0], "author") == 0)
     {
-        exit_signal_handler(2);
+        author();
         return;
     }
     // 单长度指令find、f需要单独判断！

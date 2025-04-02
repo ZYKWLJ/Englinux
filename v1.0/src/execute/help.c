@@ -29,7 +29,7 @@ void help()
     const char *descriptions[] = {description, help_description, exit_description, clear_description, 
     author_description, find_description, NULL};
     const char **columns[] = {cmds, descriptions};
-    print(columns, sizeof(columns) / sizeof(columns[0]));
+    print_help(columns, sizeof(columns) / sizeof(columns[0]));
 }
 
 

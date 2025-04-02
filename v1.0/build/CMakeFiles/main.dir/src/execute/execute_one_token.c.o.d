@@ -94,4 +94,7 @@ CMakeFiles/main.dir/src/execute/execute_one_token.c.o: \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/color.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/error.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/clear.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/author.h
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/author.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../display/color.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../display/print_help.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/find_help.h

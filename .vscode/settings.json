@@ -41,6 +41,8 @@
         "execute_four_token.h": "c",
         "parser_fourth_token.h": "c",
         "stdlib.h": "c",
-        "execute_one_token.h": "c"
+        "execute_one_token.h": "c",
+        "author.h": "c",
+        "find_help.h": "c"
     }
 }

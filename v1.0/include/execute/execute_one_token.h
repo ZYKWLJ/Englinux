@@ -7,5 +7,6 @@
 #include "../../include/display/error.h"
 #include "clear.h"
 #include"../display/author.h"
+#include"../display/find_help.h"
 void execute_one_token(char*token[],int token_num, char *origin_str);
 #endif

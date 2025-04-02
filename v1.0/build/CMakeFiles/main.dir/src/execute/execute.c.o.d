@@ -98,6 +98,9 @@ CMakeFiles/main.dir/src/execute/execute.c.o: \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/color.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/error.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/author.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../display/color.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../display/print_help.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/find_help.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/execute_two_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/display.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../words_lib/words.h \
