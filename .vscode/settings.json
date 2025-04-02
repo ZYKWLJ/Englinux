@@ -32,6 +32,9 @@
         "print_words.h": "c",
         "wchar.h": "c",
         "print_help.h": "c",
-        "display_width.h": "c"
+        "display_width.h": "c",
+        "parser_second_token.h": "c",
+        "parser_third_token.h": "c",
+        "locale.h": "c"
     }
 }

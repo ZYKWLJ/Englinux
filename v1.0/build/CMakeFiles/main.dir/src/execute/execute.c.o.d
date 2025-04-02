@@ -103,6 +103,9 @@ CMakeFiles/main.dir/src/execute/execute.c.o: \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/is_all_digit.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/three_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_words.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/parser_second_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/parser_third_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/four_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../lexer/lexer.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../lexer/../display/color.h

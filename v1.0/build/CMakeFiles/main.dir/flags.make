@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/eyk/1code/EngLinux/v1.0/include
 
-C_FLAGS = 
+C_FLAGS = -g
 

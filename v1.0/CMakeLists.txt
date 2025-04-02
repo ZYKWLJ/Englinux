@@ -5,6 +5,8 @@ set (EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin) # PROJECT_SOURCE_DIR是�
 
 # 使用 file(GLOB_RECURSE) 递归获取所有源文件
 file(GLOB_RECURSE SRC_LIST "src/*.c" "src/*/*.c" "src/*/*/*.c")
+# 设置编译类型为Debug，会自动添加 -g 选项
+set(CMAKE_BUILD_TYPE Debug)
 
 include_directories (include)# 指定头文件的搜索路径。即.h文件
 

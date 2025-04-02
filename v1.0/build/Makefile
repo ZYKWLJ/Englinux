@@ -489,6 +489,54 @@ src/execute/one_token.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/one_token.c.s
 .PHONY : src/execute/one_token.c.s
 
+src/execute/parser_second_token.o: src/execute/parser_second_token.c.o
+.PHONY : src/execute/parser_second_token.o
+
+# target to build an object file
+src/execute/parser_second_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_second_token.c.o
+.PHONY : src/execute/parser_second_token.c.o
+
+src/execute/parser_second_token.i: src/execute/parser_second_token.c.i
+.PHONY : src/execute/parser_second_token.i
+
+# target to preprocess a source file
+src/execute/parser_second_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_second_token.c.i
+.PHONY : src/execute/parser_second_token.c.i
+
+src/execute/parser_second_token.s: src/execute/parser_second_token.c.s
+.PHONY : src/execute/parser_second_token.s
+
+# target to generate assembly for a file
+src/execute/parser_second_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_second_token.c.s
+.PHONY : src/execute/parser_second_token.c.s
+
+src/execute/parser_third_token.o: src/execute/parser_third_token.c.o
+.PHONY : src/execute/parser_third_token.o
+
+# target to build an object file
+src/execute/parser_third_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_third_token.c.o
+.PHONY : src/execute/parser_third_token.c.o
+
+src/execute/parser_third_token.i: src/execute/parser_third_token.c.i
+.PHONY : src/execute/parser_third_token.i
+
+# target to preprocess a source file
+src/execute/parser_third_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_third_token.c.i
+.PHONY : src/execute/parser_third_token.c.i
+
+src/execute/parser_third_token.s: src/execute/parser_third_token.c.s
+.PHONY : src/execute/parser_third_token.s
+
+# target to generate assembly for a file
+src/execute/parser_third_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_third_token.c.s
+.PHONY : src/execute/parser_third_token.c.s
+
 src/execute/three_token.o: src/execute/three_token.c.o
 .PHONY : src/execute/three_token.o
 
@@ -1935,6 +1983,12 @@ help:
 	@echo "... src/execute/one_token.o"
 	@echo "... src/execute/one_token.i"
 	@echo "... src/execute/one_token.s"
+	@echo "... src/execute/parser_second_token.o"
+	@echo "... src/execute/parser_second_token.i"
+	@echo "... src/execute/parser_second_token.s"
+	@echo "... src/execute/parser_third_token.o"
+	@echo "... src/execute/parser_third_token.i"
+	@echo "... src/execute/parser_third_token.s"
 	@echo "... src/execute/three_token.o"
 	@echo "... src/execute/three_token.i"
 	@echo "... src/execute/three_token.s"

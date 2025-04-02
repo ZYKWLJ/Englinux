@@ -23,6 +23,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/eyk/1code/EngLinux/v1.0/src/execute/is_all_digit.c" "CMakeFiles/main.dir/src/execute/is_all_digit.c.o" "gcc" "CMakeFiles/main.dir/src/execute/is_all_digit.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/execute/match.c" "CMakeFiles/main.dir/src/execute/match.c.o" "gcc" "CMakeFiles/main.dir/src/execute/match.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/execute/one_token.c" "CMakeFiles/main.dir/src/execute/one_token.c.o" "gcc" "CMakeFiles/main.dir/src/execute/one_token.c.o.d"
+  "/home/eyk/1code/EngLinux/v1.0/src/execute/parser_second_token.c" "CMakeFiles/main.dir/src/execute/parser_second_token.c.o" "gcc" "CMakeFiles/main.dir/src/execute/parser_second_token.c.o.d"
+  "/home/eyk/1code/EngLinux/v1.0/src/execute/parser_third_token.c" "CMakeFiles/main.dir/src/execute/parser_third_token.c.o" "gcc" "CMakeFiles/main.dir/src/execute/parser_third_token.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/execute/three_token.c" "CMakeFiles/main.dir/src/execute/three_token.c.o" "gcc" "CMakeFiles/main.dir/src/execute/three_token.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/execute/two_token.c" "CMakeFiles/main.dir/src/execute/two_token.c.o" "gcc" "CMakeFiles/main.dir/src/execute/two_token.c.o.d"
   "/home/eyk/1code/EngLinux/v1.0/src/lexer/lexer.c" "CMakeFiles/main.dir/src/lexer/lexer.c.o" "gcc" "CMakeFiles/main.dir/src/lexer/lexer.c.o.d"
