@@ -21,5 +21,5 @@
 #include "is_all_digit.h"
 #include "find.h"
 void execute(char *str);
-int is_all_digit(char *str);
+// int is_all_digit(const char *str);
 #endif

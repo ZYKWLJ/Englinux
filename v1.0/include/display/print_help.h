@@ -6,5 +6,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <wchar.h>
+#include"display_width.h"
 void print(const char **str[],int columns_num);
 #endif

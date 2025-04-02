@@ -1,27 +1,27 @@
-#include "../../include/display/print.h"
+#include "../../include/display/print_help.h"
 // 计算字符串的显示宽度（中文算2，英文算1）
-int display_width(const char *str) {
-    int width = 0;
-    while (*str) {
-        if ((unsigned char)*str >= 0x80) { // 中文字符
-            width += 2;
-            str += 3; // UTF-8中文字符通常占3字节
-        } else {
-            width += 1;
-            str += 1;
-        }
-    }
-    return width;
-}
+// int display_width(const char *str) {
+//     int width = 0;
+//     while (*str) {
+//         if ((unsigned char)*str >= 0x80) { // 中文字符
+//             width += 2;
+//             str += 3; // UTF-8中文字符通常占3字节
+//         } else {
+//             width += 1;
+//             str += 1;
+//         }
+//     }
+//     return width;
+// }
 
-// 打印固定宽度的字符串，考虑中文字符
-void print_padded(const char *str, int width) {
-    int str_width = display_width(str);
-    printf("%s", str);
-    for (int i = str_width; i < width; i++) {
-        printf(" ");
-    }
-}
+// // 打印固定宽度的字符串，考虑中文字符
+// void print_padded(const char *str, int width) {
+//     int str_width = display_width(str);
+//     printf("%s", str);
+//     for (int i = str_width; i < width; i++) {
+//         printf(" ");
+//     }
+// }
 
 // 打印表格内容的函数（通用版本）
 void print(const char **str[], int columns_num) {

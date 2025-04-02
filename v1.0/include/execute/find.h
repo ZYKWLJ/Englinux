@@ -1,16 +1,12 @@
-# ifndef _SEARCH_H_
-# define _SEARCH_H_
+#ifndef _SEARCH_H_
+#define _SEARCH_H_
 // # include "words.h"
-# include <stdio.h>
-# include <stdlib.h>
-# include <string.h>
-// # include "findAndHighlight.h"
-// # include "words.h"
-// extern const char **words[27];
-// extern const char **library[];
-// extern word_entry **library[];
-// int search_word(char* str, int library,int mod);
-void find(char *str, int library_index, int search_mod, int first_show, int second_show, int third_show);
-// int search_word(const char *target, int lib_index, int search_mode,
-            //    int first_show, int second_show, int third_show) ;
-# endif
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "../words_lib/words.h"
+#include "../display/color.h"
+#include "match.h"
+// extern word_entry **library[LIB_NUM];
+word_entry *find(char *str, int library_index, int search_mod, word_entry *result,int* result_size);
+#endif

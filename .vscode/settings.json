@@ -16,6 +16,22 @@
         "three_token.h": "c",
         "is_all_digit.h": "c",
         "ctype.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "cet6.h": "c",
+        "find.h": "c",
+        "words.h": "c",
+        "find_in_single_library.h": "c",
+        "*.tcc": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "functional": "c",
+        "string_view": "c",
+        "streambuf": "c",
+        "display.h": "c",
+        "match.h": "c",
+        "print_words.h": "c",
+        "wchar.h": "c",
+        "print_help.h": "c",
+        "display_width.h": "c"
     }
 }

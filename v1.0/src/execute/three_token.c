@@ -22,7 +22,7 @@ void execute_three_token(char *token[], int token_num, char *origin_str)
                 }
                 else
                 {
-                    search(token[1], lib);
+                    // search(token[1], lib);
                 }
             }
             if (strcmp(token[2], "-4") == 0 || strcmp(token[2], "-6") == 0)

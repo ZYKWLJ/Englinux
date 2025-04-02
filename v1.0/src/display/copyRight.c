@@ -23,7 +23,7 @@ void acsii_troposphere_print(const char *define_str, int sleep_time, int interva
 }
 
 // 版权打印函数定义
-void print()
+void print_copyright()
 {
     // printf("\n\n\n");
     fast_Dynamic_input_green(TROPOSPHERE_ASCII, 1, 1);

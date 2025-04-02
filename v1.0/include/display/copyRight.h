@@ -4,6 +4,6 @@
 #include <unistd.h> // 包含用于 usleep 函数的头文件
 #include <string.h>
 #include "color.h"
-void print();
+void print_copyright();
 // void print(const char *matched_machine, const char *author, int sleep_time, int interval_num_to_sleep);
 #endif
