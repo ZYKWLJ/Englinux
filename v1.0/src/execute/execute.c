@@ -3,6 +3,11 @@
 
 void execute(char *str)
 {
+    // 1. 先将整个输入字符串转为小写
+    for (char *p = str; *p; p++) {
+        *p = tolower((unsigned char)*p);  // 使用unsigned char避免符号扩展问题
+    }
+
     // printf("this is executor\n");
     // 调用词法分析器进行分析！
     // 词法分析器的作用是将输入的字符串分割成一个个的单词（token），并返回一个指向这些单词的指针数组。

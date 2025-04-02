@@ -1,5 +1,4 @@
-#include "../../include/execute/one_token.h"
-#include "../../include/display/error.h"
+#include "../../include/execute/execute_one_token.h"
 void execute_one_token(char *token[], int token_num, char *origin_str)
 {
     if (strcmp(token[0], "help") == 0)
@@ -12,8 +11,11 @@ void execute_one_token(char *token[], int token_num, char *origin_str)
         clear();
         return;
     }
-
     else if (strcmp(token[0], "exit") == 0)
+    {
+        exit_signal_handler(2);
+        return;
+    }else if (strcmp(token[0], "author") == 0)
     {
         exit_signal_handler(2);
         return;

@@ -345,6 +345,102 @@ src/execute/execute.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute.c.s
 .PHONY : src/execute/execute.c.s
 
+src/execute/execute_four_token.o: src/execute/execute_four_token.c.o
+.PHONY : src/execute/execute_four_token.o
+
+# target to build an object file
+src/execute/execute_four_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_four_token.c.o
+.PHONY : src/execute/execute_four_token.c.o
+
+src/execute/execute_four_token.i: src/execute/execute_four_token.c.i
+.PHONY : src/execute/execute_four_token.i
+
+# target to preprocess a source file
+src/execute/execute_four_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_four_token.c.i
+.PHONY : src/execute/execute_four_token.c.i
+
+src/execute/execute_four_token.s: src/execute/execute_four_token.c.s
+.PHONY : src/execute/execute_four_token.s
+
+# target to generate assembly for a file
+src/execute/execute_four_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_four_token.c.s
+.PHONY : src/execute/execute_four_token.c.s
+
+src/execute/execute_one_token.o: src/execute/execute_one_token.c.o
+.PHONY : src/execute/execute_one_token.o
+
+# target to build an object file
+src/execute/execute_one_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_one_token.c.o
+.PHONY : src/execute/execute_one_token.c.o
+
+src/execute/execute_one_token.i: src/execute/execute_one_token.c.i
+.PHONY : src/execute/execute_one_token.i
+
+# target to preprocess a source file
+src/execute/execute_one_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_one_token.c.i
+.PHONY : src/execute/execute_one_token.c.i
+
+src/execute/execute_one_token.s: src/execute/execute_one_token.c.s
+.PHONY : src/execute/execute_one_token.s
+
+# target to generate assembly for a file
+src/execute/execute_one_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_one_token.c.s
+.PHONY : src/execute/execute_one_token.c.s
+
+src/execute/execute_three_token.o: src/execute/execute_three_token.c.o
+.PHONY : src/execute/execute_three_token.o
+
+# target to build an object file
+src/execute/execute_three_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_three_token.c.o
+.PHONY : src/execute/execute_three_token.c.o
+
+src/execute/execute_three_token.i: src/execute/execute_three_token.c.i
+.PHONY : src/execute/execute_three_token.i
+
+# target to preprocess a source file
+src/execute/execute_three_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_three_token.c.i
+.PHONY : src/execute/execute_three_token.c.i
+
+src/execute/execute_three_token.s: src/execute/execute_three_token.c.s
+.PHONY : src/execute/execute_three_token.s
+
+# target to generate assembly for a file
+src/execute/execute_three_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_three_token.c.s
+.PHONY : src/execute/execute_three_token.c.s
+
+src/execute/execute_two_token.o: src/execute/execute_two_token.c.o
+.PHONY : src/execute/execute_two_token.o
+
+# target to build an object file
+src/execute/execute_two_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_two_token.c.o
+.PHONY : src/execute/execute_two_token.c.o
+
+src/execute/execute_two_token.i: src/execute/execute_two_token.c.i
+.PHONY : src/execute/execute_two_token.i
+
+# target to preprocess a source file
+src/execute/execute_two_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_two_token.c.i
+.PHONY : src/execute/execute_two_token.c.i
+
+src/execute/execute_two_token.s: src/execute/execute_two_token.c.s
+.PHONY : src/execute/execute_two_token.s
+
+# target to generate assembly for a file
+src/execute/execute_two_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/execute_two_token.c.s
+.PHONY : src/execute/execute_two_token.c.s
+
 src/execute/find.o: src/execute/find.c.o
 .PHONY : src/execute/find.o
 
@@ -368,30 +464,6 @@ src/execute/find.s: src/execute/find.c.s
 src/execute/find.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/find.c.s
 .PHONY : src/execute/find.c.s
-
-src/execute/four_token.o: src/execute/four_token.c.o
-.PHONY : src/execute/four_token.o
-
-# target to build an object file
-src/execute/four_token.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/four_token.c.o
-.PHONY : src/execute/four_token.c.o
-
-src/execute/four_token.i: src/execute/four_token.c.i
-.PHONY : src/execute/four_token.i
-
-# target to preprocess a source file
-src/execute/four_token.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/four_token.c.i
-.PHONY : src/execute/four_token.c.i
-
-src/execute/four_token.s: src/execute/four_token.c.s
-.PHONY : src/execute/four_token.s
-
-# target to generate assembly for a file
-src/execute/four_token.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/four_token.c.s
-.PHONY : src/execute/four_token.c.s
 
 src/execute/help.o: src/execute/help.c.o
 .PHONY : src/execute/help.o
@@ -465,29 +537,53 @@ src/execute/match.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/match.c.s
 .PHONY : src/execute/match.c.s
 
-src/execute/one_token.o: src/execute/one_token.c.o
-.PHONY : src/execute/one_token.o
+src/execute/parser_first_token.o: src/execute/parser_first_token.c.o
+.PHONY : src/execute/parser_first_token.o
 
 # target to build an object file
-src/execute/one_token.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/one_token.c.o
-.PHONY : src/execute/one_token.c.o
+src/execute/parser_first_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_first_token.c.o
+.PHONY : src/execute/parser_first_token.c.o
 
-src/execute/one_token.i: src/execute/one_token.c.i
-.PHONY : src/execute/one_token.i
+src/execute/parser_first_token.i: src/execute/parser_first_token.c.i
+.PHONY : src/execute/parser_first_token.i
 
 # target to preprocess a source file
-src/execute/one_token.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/one_token.c.i
-.PHONY : src/execute/one_token.c.i
+src/execute/parser_first_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_first_token.c.i
+.PHONY : src/execute/parser_first_token.c.i
 
-src/execute/one_token.s: src/execute/one_token.c.s
-.PHONY : src/execute/one_token.s
+src/execute/parser_first_token.s: src/execute/parser_first_token.c.s
+.PHONY : src/execute/parser_first_token.s
 
 # target to generate assembly for a file
-src/execute/one_token.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/one_token.c.s
-.PHONY : src/execute/one_token.c.s
+src/execute/parser_first_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_first_token.c.s
+.PHONY : src/execute/parser_first_token.c.s
+
+src/execute/parser_fourth_token.o: src/execute/parser_fourth_token.c.o
+.PHONY : src/execute/parser_fourth_token.o
+
+# target to build an object file
+src/execute/parser_fourth_token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o
+.PHONY : src/execute/parser_fourth_token.c.o
+
+src/execute/parser_fourth_token.i: src/execute/parser_fourth_token.c.i
+.PHONY : src/execute/parser_fourth_token.i
+
+# target to preprocess a source file
+src/execute/parser_fourth_token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_fourth_token.c.i
+.PHONY : src/execute/parser_fourth_token.c.i
+
+src/execute/parser_fourth_token.s: src/execute/parser_fourth_token.c.s
+.PHONY : src/execute/parser_fourth_token.s
+
+# target to generate assembly for a file
+src/execute/parser_fourth_token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_fourth_token.c.s
+.PHONY : src/execute/parser_fourth_token.c.s
 
 src/execute/parser_second_token.o: src/execute/parser_second_token.c.o
 .PHONY : src/execute/parser_second_token.o
@@ -536,54 +632,6 @@ src/execute/parser_third_token.s: src/execute/parser_third_token.c.s
 src/execute/parser_third_token.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/parser_third_token.c.s
 .PHONY : src/execute/parser_third_token.c.s
-
-src/execute/three_token.o: src/execute/three_token.c.o
-.PHONY : src/execute/three_token.o
-
-# target to build an object file
-src/execute/three_token.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/three_token.c.o
-.PHONY : src/execute/three_token.c.o
-
-src/execute/three_token.i: src/execute/three_token.c.i
-.PHONY : src/execute/three_token.i
-
-# target to preprocess a source file
-src/execute/three_token.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/three_token.c.i
-.PHONY : src/execute/three_token.c.i
-
-src/execute/three_token.s: src/execute/three_token.c.s
-.PHONY : src/execute/three_token.s
-
-# target to generate assembly for a file
-src/execute/three_token.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/three_token.c.s
-.PHONY : src/execute/three_token.c.s
-
-src/execute/two_token.o: src/execute/two_token.c.o
-.PHONY : src/execute/two_token.o
-
-# target to build an object file
-src/execute/two_token.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/two_token.c.o
-.PHONY : src/execute/two_token.c.o
-
-src/execute/two_token.i: src/execute/two_token.c.i
-.PHONY : src/execute/two_token.i
-
-# target to preprocess a source file
-src/execute/two_token.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/two_token.c.i
-.PHONY : src/execute/two_token.c.i
-
-src/execute/two_token.s: src/execute/two_token.c.s
-.PHONY : src/execute/two_token.s
-
-# target to generate assembly for a file
-src/execute/two_token.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/execute/two_token.c.s
-.PHONY : src/execute/two_token.c.s
 
 src/lexer/lexer.o: src/lexer/lexer.c.o
 .PHONY : src/lexer/lexer.o
@@ -1965,12 +2013,21 @@ help:
 	@echo "... src/execute/execute.o"
 	@echo "... src/execute/execute.i"
 	@echo "... src/execute/execute.s"
+	@echo "... src/execute/execute_four_token.o"
+	@echo "... src/execute/execute_four_token.i"
+	@echo "... src/execute/execute_four_token.s"
+	@echo "... src/execute/execute_one_token.o"
+	@echo "... src/execute/execute_one_token.i"
+	@echo "... src/execute/execute_one_token.s"
+	@echo "... src/execute/execute_three_token.o"
+	@echo "... src/execute/execute_three_token.i"
+	@echo "... src/execute/execute_three_token.s"
+	@echo "... src/execute/execute_two_token.o"
+	@echo "... src/execute/execute_two_token.i"
+	@echo "... src/execute/execute_two_token.s"
 	@echo "... src/execute/find.o"
 	@echo "... src/execute/find.i"
 	@echo "... src/execute/find.s"
-	@echo "... src/execute/four_token.o"
-	@echo "... src/execute/four_token.i"
-	@echo "... src/execute/four_token.s"
 	@echo "... src/execute/help.o"
 	@echo "... src/execute/help.i"
 	@echo "... src/execute/help.s"
@@ -1980,21 +2037,18 @@ help:
 	@echo "... src/execute/match.o"
 	@echo "... src/execute/match.i"
 	@echo "... src/execute/match.s"
-	@echo "... src/execute/one_token.o"
-	@echo "... src/execute/one_token.i"
-	@echo "... src/execute/one_token.s"
+	@echo "... src/execute/parser_first_token.o"
+	@echo "... src/execute/parser_first_token.i"
+	@echo "... src/execute/parser_first_token.s"
+	@echo "... src/execute/parser_fourth_token.o"
+	@echo "... src/execute/parser_fourth_token.i"
+	@echo "... src/execute/parser_fourth_token.s"
 	@echo "... src/execute/parser_second_token.o"
 	@echo "... src/execute/parser_second_token.i"
 	@echo "... src/execute/parser_second_token.s"
 	@echo "... src/execute/parser_third_token.o"
 	@echo "... src/execute/parser_third_token.i"
 	@echo "... src/execute/parser_third_token.s"
-	@echo "... src/execute/three_token.o"
-	@echo "... src/execute/three_token.i"
-	@echo "... src/execute/three_token.s"
-	@echo "... src/execute/two_token.o"
-	@echo "... src/execute/two_token.i"
-	@echo "... src/execute/two_token.s"
 	@echo "... src/lexer/lexer.o"
 	@echo "... src/lexer/lexer.i"
 	@echo "... src/lexer/lexer.s"

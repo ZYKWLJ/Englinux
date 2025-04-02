@@ -35,6 +35,12 @@
         "display_width.h": "c",
         "parser_second_token.h": "c",
         "parser_third_token.h": "c",
-        "locale.h": "c"
+        "locale.h": "c",
+        "parser_first_token.h": "c",
+        "four_token.h": "c",
+        "execute_four_token.h": "c",
+        "parser_fourth_token.h": "c",
+        "stdlib.h": "c",
+        "execute_one_token.h": "c"
     }
 }

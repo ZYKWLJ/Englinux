@@ -419,6 +419,7 @@ CMakeFiles/main.dir/src/execute/clear.c.o: /home/eyk/1code/EngLinux/v1.0/src/exe
 
 CMakeFiles/main.dir/src/execute/execute.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute.c \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/display.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
@@ -436,16 +437,18 @@ CMakeFiles/main.dir/src/execute/execute.c.o: /home/eyk/1code/EngLinux/v1.0/src/e
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/clear.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/execute.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_four_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_one_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_three_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_two_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/four_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/one_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_fourth_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/parser_third_token.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/three_token.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/two_token.h \
   /usr/include/alloca.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
@@ -534,23 +537,41 @@ CMakeFiles/main.dir/src/execute/execute.c.o: /home/eyk/1code/EngLinux/v1.0/src/e
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/main.dir/src/execute/find.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/find.c \
+CMakeFiles/main.dir/src/execute/execute_four_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_four_token.c \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/display.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_four_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_fourth_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_third_token.h \
   /usr/include/alloca.h \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/locale.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -558,6 +579,7 @@ CMakeFiles/main.dir/src/execute/find.c.o: /home/eyk/1code/EngLinux/v1.0/src/exec
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -582,16 +604,19 @@ CMakeFiles/main.dir/src/execute/find.c.o: /home/eyk/1code/EngLinux/v1.0/src/exec
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -601,17 +626,211 @@ CMakeFiles/main.dir/src/execute/find.c.o: /home/eyk/1code/EngLinux/v1.0/src/exec
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/main.dir/src/execute/four_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/four_token.c \
+CMakeFiles/main.dir/src/execute/execute_one_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_one_token.c \
   /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/endSay.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/clear.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_one_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/four_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/locale.h \
+  /usr/include/signal.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/main.dir/src/execute/execute_three_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_three_token.c \
+  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/display.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_three_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_third_token.h \
+  /usr/include/alloca.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/locale.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/main.dir/src/execute/execute_two_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_two_token.c \
+  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/display.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_two_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
@@ -672,6 +891,73 @@ CMakeFiles/main.dir/src/execute/four_token.c.o: /home/eyk/1code/EngLinux/v1.0/sr
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/main.dir/src/execute/find.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/find.c \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -851,34 +1137,21 @@ CMakeFiles/main.dir/src/execute/match.c.o: /home/eyk/1code/EngLinux/v1.0/src/exe
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/main.dir/src/execute/one_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/one_token.c \
+CMakeFiles/main.dir/src/execute/parser_first_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/parser_first_token.c \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/endSay.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/clear.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/one_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h \
   /usr/include/alloca.h \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
-  /usr/include/locale.h \
-  /usr/include/signal.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -886,23 +1159,10 @@ CMakeFiles/main.dir/src/execute/one_token.c.o: /home/eyk/1code/EngLinux/v1.0/src
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
@@ -919,37 +1179,91 @@ CMakeFiles/main.dir/src/execute/one_token.c.o: /home/eyk/1code/EngLinux/v1.0/src
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/main.dir/src/execute/parser_fourth_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/parser_fourth_token.c \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_fourth_token.h \
+  /usr/include/alloca.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
@@ -1083,177 +1397,6 @@ CMakeFiles/main.dir/src/execute/parser_third_token.c.o: /home/eyk/1code/EngLinux
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/main.dir/src/execute/three_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/three_token.c \
-  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/display.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_third_token.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/three_token.h \
-  /usr/include/alloca.h \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/locale.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
-
-CMakeFiles/main.dir/src/execute/two_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/two_token.c \
-  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/display.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
-  /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/two_token.h \
-  /usr/include/alloca.h \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/locale.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
-
 CMakeFiles/main.dir/src/lexer/lexer.c.o: /home/eyk/1code/EngLinux/v1.0/src/lexer/lexer.c \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/lexer/lexer.h \
@@ -1322,6 +1465,7 @@ CMakeFiles/main.dir/src/main.c.o: /home/eyk/1code/EngLinux/v1.0/src/main.c \
   /home/eyk/1code/EngLinux/v1.0/include/display/copyRight.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/endSay.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/display.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
@@ -1339,16 +1483,18 @@ CMakeFiles/main.dir/src/main.c.o: /home/eyk/1code/EngLinux/v1.0/src/main.c \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/clear.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/execute.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_four_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_one_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_three_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/execute_two_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/four_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/one_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_fourth_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/parser_third_token.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/three_token.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/two_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/main.h \
   /usr/include/alloca.h \
   /usr/include/ctype.h \
@@ -4806,516 +4952,524 @@ CMakeFiles/main.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/w
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/words.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_y.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_w.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_u.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_q.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_p.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_p.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_o.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_n.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_m.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_v.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_l.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_y.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_k.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_v.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_k.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_j.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_j.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_h.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_f.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_f.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_s.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_d.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_c.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_c.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_a.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_i.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_y.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_w.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_w.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_v.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_v.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_s.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_r.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_q.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_p.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_p.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_t.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_o.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_n.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_r.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_n.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_l.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_u.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_l.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_k.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_r.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_k.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_j.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_j.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_i.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_f.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_f.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_e.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_d.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_i.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_c.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_c.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_b.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_u.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_a.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_z.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_d.h:
-
-/usr/include/time.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_q.h:
-
-/usr/include/readline/rlstdc.h:
-
-/usr/include/readline/readline.h:
-
-/usr/include/readline/keymaps.h:
-
-/usr/include/readline/history.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/main.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/word_set.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_d.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/parser_third_token.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_h.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_b.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/parser_second_token.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/match.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_m.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/is_all_digit.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/help.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/find.c:
-
-/usr/include/search.h:
-
-/usr/include/ctype.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_o.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/three_token.c:
-
-/usr/include/string.h:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_z.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_u.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/match.h:
 
 /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_z.c:
 
-/home/eyk/1code/EngLinux/v1.0/include/display/print_words.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/display/display_width.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_l.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_e.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_s.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_b.c:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_h.c:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/readline/tilde.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_m.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/display/display.c:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/locale.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/one_token.c:
-
-/usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/display/endSay.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_a.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/display/copyRight.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_m.c:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/lexer/lexer.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/two_token.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/help.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_i.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/four_token.c:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/readline/rltypedefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/strings.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_s.c:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/parser_third_token.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_z.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/display/display.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_e.h:
-
-/usr/include/features-time64.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_e.c:
-
-/usr/include/stdlib.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/display/copyRight.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/clear.c:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_w.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/four_token.h:
-
-/usr/include/unistd.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/display/color.h:
+/home/eyk/1code/EngLinux/v1.0/include/execute/parser_fourth_token.h:
 
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h:
 
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_g.c:
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute_three_token.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/execute.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_q.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/two_token.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/one_token.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/signal.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_r.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_g.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_t.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_b.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/main.c:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/execute.c:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/display/print_words.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/display/endSay.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_a.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/display/error.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_o.c:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_g.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_h.h:
-
-/usr/include/readline/chardefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-/usr/include/features.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/display/error.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_g.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/display/print_help.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_n.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/display/display_width.c:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_y.h:
-
-/home/eyk/1code/EngLinux/v1.0/src/display/print_help.c:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/clear.h:
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /home/eyk/1code/EngLinux/v1.0/include/lexer/lexer.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute_one_token.h:
 
-/home/eyk/1code/EngLinux/v1.0/include/execute/find.h:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/display/print_help.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_y.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/words.c:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_n.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/display/error.c:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_h.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_g.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/execute_one_token.c:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_o.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute_two_token.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/display/error.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_a.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/display/endSay.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/display/print_words.c:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/main.c:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_b.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_t.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_g.c:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_r.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_t.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_q.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/execute.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_g.c:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_w.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/display/copyRight.c:
+
+/usr/include/stdlib.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_e.c:
+
+/usr/include/features-time64.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_e.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_s.c:
+
+/usr/include/signal.h:
+
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/display/display.h:
+
+/usr/include/readline/rltypedefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
+
+/usr/include/stdio.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_i.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/help.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/lexer/lexer.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/display/copyRight.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_a.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/display/endSay.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/display/display.c:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_m.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/readline/tilde.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_h.c:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_b.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/word_set.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_s.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h:
 
-/home/eyk/1code/EngLinux/v1.0/include/execute/three_token.h:
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_e.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/display/display_width.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/display/print_words.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/clear.h:
+
+/usr/include/features.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/match.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute_four_token.h:
+
+/usr/include/ctype.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/wchar.h:
+
+/usr/include/string.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_o.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/search.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/execute_four_token.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/execute_three_token.c:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/execute_two_token.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_n.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/display/print_help.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/find.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/is_all_digit.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_m.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/match.c:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/parser_fourth_token.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/parser_second_token.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_b.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_h.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/parser_third_token.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_d.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/display/display_width.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/main.h:
+
+/usr/include/readline/readline.h:
+
+/usr/include/readline/rlstdc.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_q.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/time.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_b.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_d.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_z.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_a.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_u.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_c.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_i.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/help.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_d.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/clear.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_e.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_f.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_f.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_i.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_j.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_j.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_k.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_r.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_c.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_l.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_u.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_l.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_n.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_u.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_r.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_n.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_k.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_o.c:
+
+/usr/include/readline/chardefs.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_t.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_z.h:
+
+/usr/include/readline/keymaps.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_p.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_p.h:
+
+/usr/include/readline/history.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_q.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/find.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_r.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_l.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_s.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_v.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_w.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_w.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_y.c:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_i.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_a.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_c.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_c.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_d.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_f.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/parser_third_token.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_f.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_h.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_j.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_j.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_k.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/parser_first_token.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_v.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_k.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_y.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_l.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_v.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_m.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_o.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet4/cet4_m.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_p.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_s.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_p.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_q.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/display/color.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_u.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_w.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_g.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_v.h:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_y.c:

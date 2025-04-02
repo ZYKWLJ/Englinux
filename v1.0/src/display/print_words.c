@@ -118,43 +118,43 @@ void print_words(word_entry *words, int word_count, char *str, int match_mod,
     int column_sources[4]; // 记录每列对应的word_entry字段
     const char* column_titles[4];
     
-    if (firstcol_show != -1) {
+    if (firstcol_show != 0) {
         column_sources[columns_num] = firstcol_show;
         switch (firstcol_show) {
-            case 0: column_titles[columns_num] = "Index"; break;
-            case 1: column_titles[columns_num] = "Word"; break;
-            case 2: column_titles[columns_num] = "Phonetic"; break;
-            case 3: column_titles[columns_num] = "Meaning"; break;
+            case 1: column_titles[columns_num] = "Index"; break;
+            case 2: column_titles[columns_num] = "Word"; break;
+            case 3: column_titles[columns_num] = "Phonetic"; break;
+            case 4: column_titles[columns_num] = "Meaning"; break;
         }
         columns_num++;
     }
-    if (secondcol_show != -1) {
+    if (secondcol_show != 0) {
         column_sources[columns_num] = secondcol_show;
         switch (secondcol_show) {
-            case 0: column_titles[columns_num] = "Index"; break;
-            case 1: column_titles[columns_num] = "Word"; break;
-            case 2: column_titles[columns_num] = "Phonetic"; break;
-            case 3: column_titles[columns_num] = "Meaning"; break;
+            case 1: column_titles[columns_num] = "Index"; break;
+            case 2: column_titles[columns_num] = "Word"; break;
+            case 3: column_titles[columns_num] = "Phonetic"; break;
+            case 4: column_titles[columns_num] = "Meaning"; break;
         }
         columns_num++;
     }
-    if (thirdcol_show != -1) {
+    if (thirdcol_show != 0) {
         column_sources[columns_num] = thirdcol_show;
         switch (thirdcol_show) {
-            case 0: column_titles[columns_num] = "Index"; break;
-            case 1: column_titles[columns_num] = "Word"; break;
-            case 2: column_titles[columns_num] = "Phonetic"; break;
-            case 3: column_titles[columns_num] = "Meaning"; break;
+            case 1: column_titles[columns_num] = "Index"; break;
+            case 2: column_titles[columns_num] = "Word"; break;
+            case 3: column_titles[columns_num] = "Phonetic"; break;
+            case 4: column_titles[columns_num] = "Meaning"; break;
         }
         columns_num++;
     }
-    if (fourthcol_show != -1) {
+    if (fourthcol_show != 0) {
         column_sources[columns_num] = fourthcol_show;
         switch (fourthcol_show) {
-            case 0: column_titles[columns_num] = "Index"; break;
-            case 1: column_titles[columns_num] = "Word"; break;
-            case 2: column_titles[columns_num] = "Phonetic"; break;
-            case 3: column_titles[columns_num] = "Meaning"; break;
+            case 1: column_titles[columns_num] = "Index"; break;
+            case 2: column_titles[columns_num] = "Word"; break;
+            case 3: column_titles[columns_num] = "Phonetic"; break;
+            case 4: column_titles[columns_num] = "Meaning"; break;
         }
         columns_num++;
     }
@@ -169,10 +169,10 @@ void print_words(word_entry *words, int word_count, char *str, int match_mod,
         for (int j = 0; j < word_count; j++) {
             const char *content = NULL;
             switch (column_sources[i]) {
-                case 0: content = words[j].index; break;
-                case 1: content = words[j].word; break;
-                case 2: content = words[j].phonetic; break;
-                case 3: content = words[j].meaning; break;
+                case 1: content = words[j].index; break;
+                case 2: content = words[j].word; break;
+                case 3: content = words[j].phonetic; break;
+                case 4: content = words[j].meaning; break;
             }
             int width = display_width_words(content);
             if (width > col_max_widths[i]) {
@@ -215,17 +215,17 @@ void print_words(word_entry *words, int word_count, char *str, int match_mod,
             printf(" ");
             const char *content = NULL;
             switch (column_sources[i]) {
-                case 0: content = words[row].index; break;
-                case 1: content = words[row].word; break;
-                case 2: content = words[row].phonetic; break;
-                case 3: content = words[row].meaning; break;
+                case 1: content = words[row].index; break;
+                case 2: content = words[row].word; break;
+                case 3: content = words[row].phonetic; break;
+                case 4: content = words[row].meaning; break;
             }
             
             const char *highlight_start = NULL;
             const char *highlight_end = NULL;
             
             // 如果是word列且需要高亮
-            if (column_sources[i] == 1 && str != NULL && strlen(str) > 0) {
+            if (column_sources[i] == 2 && str != NULL && strlen(str) > 0) {
                 get_highlight_positions(content, str, match_mod, &highlight_start, &highlight_end);
             }
             

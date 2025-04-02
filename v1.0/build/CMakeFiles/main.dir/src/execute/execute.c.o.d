@@ -57,7 +57,7 @@ CMakeFiles/main.dir/src/execute/execute.c.o: \
  /usr/include/search.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/clear.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/error.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/one_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/execute_one_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/color.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/find.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../words_lib/words.h \
@@ -96,16 +96,20 @@ CMakeFiles/main.dir/src/execute/execute.c.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/color.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/two_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/error.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/author.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/execute_two_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/display.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../words_lib/words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/is_all_digit.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/three_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/execute_three_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/parser_second_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/parser_third_token.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/four_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/parser_first_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/execute_four_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/display.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/parser_fourth_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../lexer/lexer.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../lexer/../display/color.h

@@ -91,7 +91,7 @@ CMakeFiles/main.dir/src/main.c.o: \
  /usr/include/search.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/clear.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../display/error.h \
- /home/eyk/1code/EngLinux/v1.0/src/../include/execute/one_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/../include/execute/execute_one_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../../include/display/color.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/find.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../words_lib/words.h \
@@ -109,17 +109,21 @@ CMakeFiles/main.dir/src/main.c.o: \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../display/display_width.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../display/endSay.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../display/color.h \
- /home/eyk/1code/EngLinux/v1.0/src/../include/execute/two_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../../include/display/error.h \
+ /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../display/author.h \
+ /home/eyk/1code/EngLinux/v1.0/src/../include/execute/execute_two_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../display/display.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../display/../words_lib/words.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../display/print_words.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/is_all_digit.h \
- /home/eyk/1code/EngLinux/v1.0/src/../include/execute/three_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/../include/execute/execute_three_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../display/print_words.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/parser_second_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/parser_third_token.h \
- /home/eyk/1code/EngLinux/v1.0/src/../include/execute/four_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/../include/execute/parser_first_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/../include/execute/execute_four_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../../include/display/display.h \
+ /home/eyk/1code/EngLinux/v1.0/src/../include/execute/parser_fourth_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../lexer/lexer.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/execute/../lexer/../display/color.h \
  /home/eyk/1code/EngLinux/v1.0/src/../include/display/endSay.h \

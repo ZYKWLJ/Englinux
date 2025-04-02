@@ -7,5 +7,5 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-void parser_second_token(char *token, char *full_command,int*find_mod,char*word);
+int parser_second_token(char *token, char *full_command,int*find_mod,char*word);
 # endif

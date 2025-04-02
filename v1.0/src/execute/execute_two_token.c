@@ -1,4 +1,4 @@
-#include "../../include/execute/two_token.h"
+#include "../../include/execute/execute_two_token.h"
 // #include "../../include/display/error.h"
 void execute_two_token(char *token[], int token_num, char *origin_str)
 {
@@ -41,32 +41,32 @@ void execute_two_token(char *token[], int token_num, char *origin_str)
                 find(str, 4, 0, result_4, &result_4_size);
                 find(str, 6, 0, result_6, &result_6_size);
                 // 显示4级库精确查询的result_4_size条结果的result_4单词块！
-                display(4, 0,str,result_4, result_4_size, 1,3,-1,-1);
-                display(6, 0,str,result_6, result_6_size, 1,3,-1,-1);
+                display(4, 0,str,result_4, result_4_size, 2,4,0,0);
+                display(6, 0,str,result_6, result_6_size, 2,4,0,0);
             }
             else if (l == 0)
             {
                 // 只有%在后面--前缀匹配
                 find(str, 4, 1, result_4, &result_4_size);
                 find(str, 6, 1, result_6, &result_6_size);
-                display(4, 1,str,result_4, result_4_size, 1,3,-1,-1);
-                display(6, 1,str,result_6, result_6_size, 1,3,-1,-1);
+                display(4, 1,str,result_4, result_4_size, 2,4,0,0);
+                display(6, 1,str,result_6, result_6_size, 2,4,0,0);
             }
             else if (r == strlen(token[1]) - 1)
             {
                 // 只有%在前面--后缀匹配
                 find(str, 4, 2, result_4, &result_4_size);
                 find(str, 6, 2, result_6, &result_6_size);
-                display(4, 2,str,result_4, result_4_size, 1,3,-1,-1);
-                display(6, 2,str,result_6, result_6_size, 1,3,-1,-1);
+                display(4, 2,str,result_4, result_4_size, 2,4,0,0);
+                display(6, 2,str,result_6, result_6_size, 2,4,0,0);
             }
             else
             {
                 // 有%在前后--包含匹配
                 find(str, 4, 3, result_4, &result_4_size);
                 find(str, 6, 3, result_6, &result_6_size);
-                display(4, 3,str,result_4, result_4_size, 1,3,-1,-1);
-                display(6, 3,str,result_6, result_6_size, 1,3,-1,-1);
+                display(4, 3,str,result_4, result_4_size, 2,4,0,0);
+                display(6, 3,str,result_6, result_6_size, 2,4,0,0);
             }
         }
     }

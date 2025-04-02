@@ -10,5 +10,7 @@
 # include "is_all_digit.h"
 #include"parser_second_token.h"
 #include"parser_third_token.h"
+#include"parser_first_token.h"
+
 void execute_three_token(char*token[],int token_num, char *origin_str);
 #endif

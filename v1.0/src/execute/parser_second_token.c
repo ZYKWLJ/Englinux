@@ -1,5 +1,5 @@
 #include "../../include/execute/parser_second_token.h"
-void parser_second_token(char *token, char *origin_str, int *find_mod, char *word)
+int  parser_second_token(char *token, char *origin_str, int *find_mod, char *word)
 {
     // 1.先判断是不是合法单词！
     // 首先去除可能的%
@@ -23,7 +23,7 @@ void parser_second_token(char *token, char *origin_str, int *find_mod, char *wor
     if (!is_all_alpha(word))
     {
         printf(ERROR_CMDS, BOLD, RED, origin_str, RESET, BOLD, YELLOW, RESET);
-        return;
+        return 0;
     }
     
     // 开始解析查找模式！
@@ -43,4 +43,5 @@ void parser_second_token(char *token, char *origin_str, int *find_mod, char *wor
     {
         *find_mod = 3;
     }
+    return 1;
 }
