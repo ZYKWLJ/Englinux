@@ -38,8 +38,8 @@ void execute_two_token(char *token[], int token_num, char *origin_str)
 
                 // 没有%--精确匹配
                 // int
-                find(str, 4, 0, result_4, &result_4_size);
-                find(str, 6, 0, result_6, &result_6_size);
+                find(str, 0, 0, result_4, &result_4_size);
+                find(str, 1, 0, result_6, &result_6_size);
                 // 显示4级库精确查询的result_4_size条结果的result_4单词块！
                 display(4, 0,str,result_4, result_4_size, 2,4,0,0);
                 display(6, 0,str,result_6, result_6_size, 2,4,0,0);
@@ -47,24 +47,24 @@ void execute_two_token(char *token[], int token_num, char *origin_str)
             else if (l == 0)
             {
                 // 只有%在后面--前缀匹配
-                find(str, 4, 1, result_4, &result_4_size);
-                find(str, 6, 1, result_6, &result_6_size);
+                find(str, 0, 1, result_4, &result_4_size);
+                find(str, 1, 1, result_6, &result_6_size);
                 display(4, 1,str,result_4, result_4_size, 2,4,0,0);
                 display(6, 1,str,result_6, result_6_size, 2,4,0,0);
             }
             else if (r == strlen(token[1]) - 1)
             {
                 // 只有%在前面--后缀匹配
-                find(str, 4, 2, result_4, &result_4_size);
-                find(str, 6, 2, result_6, &result_6_size);
+                find(str, 0, 2, result_4, &result_4_size);
+                find(str, 1, 2, result_6, &result_6_size);
                 display(4, 2,str,result_4, result_4_size, 2,4,0,0);
                 display(6, 2,str,result_6, result_6_size, 2,4,0,0);
             }
             else
             {
                 // 有%在前后--包含匹配
-                find(str, 4, 3, result_4, &result_4_size);
-                find(str, 6, 3, result_6, &result_6_size);
+                find(str, 0, 3, result_4, &result_4_size);
+                find(str, 1, 3, result_6, &result_6_size);
                 display(4, 3,str,result_4, result_4_size, 2,4,0,0);
                 display(6, 3,str,result_6, result_6_size, 2,4,0,0);
             }

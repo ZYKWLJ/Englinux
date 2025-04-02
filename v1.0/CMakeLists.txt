@@ -16,9 +16,9 @@ find_path(READLINE_INCLUDE_DIR readline/readline.h)
 
 if(READLINE_LIBRARY AND READLINE_INCLUDE_DIR)
     include_directories(${READLINE_INCLUDE_DIR})
-    add_executable (main ${SRC_LIST})# 创建一个可执行文件。名字为main
+    add_executable (eg ${SRC_LIST})# 创建一个可执行文件。名字为main
     # 链接 readline 库
-    target_link_libraries(main ${READLINE_LIBRARY})
+    target_link_libraries(eg ${READLINE_LIBRARY})
 else()
     message(FATAL_ERROR "readline library not found!")
 endif()
