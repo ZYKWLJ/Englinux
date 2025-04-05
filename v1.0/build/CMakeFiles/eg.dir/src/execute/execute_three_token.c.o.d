@@ -66,13 +66,15 @@ CMakeFiles/eg.dir/src/execute/execute_three_token.c.o: \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../../include/words_lib/word_set.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../../include/words_lib/cet6.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/display_width.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../execute/find.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../execute/../words_lib/words.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../execute/../display/color.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../execute/match.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/display.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../words_lib/words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/error.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/find.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../words_lib/words.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/match.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/help.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_help.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/is_all_digit.h \

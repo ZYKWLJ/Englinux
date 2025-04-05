@@ -114,6 +114,10 @@ CMakeFiles/eg.dir/src/display/copyRight.c.o: /home/eyk/1code/EngLinux/v1.0/src/d
 
 CMakeFiles/eg.dir/src/display/display.c.o: /home/eyk/1code/EngLinux/v1.0/src/display/display.c \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
@@ -444,6 +448,10 @@ CMakeFiles/eg.dir/src/display/print_words.c.o: /home/eyk/1code/EngLinux/v1.0/src
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
   /usr/include/alloca.h \
@@ -457,6 +465,7 @@ CMakeFiles/eg.dir/src/display/print_words.c.o: /home/eyk/1code/EngLinux/v1.0/src
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/wchar.h \
+  /usr/include/wctype.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -502,6 +511,7 @@ CMakeFiles/eg.dir/src/display/print_words.c.o: /home/eyk/1code/EngLinux/v1.0/src
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -565,6 +575,7 @@ CMakeFiles/eg.dir/src/execute/execute.c.o: /home/eyk/1code/EngLinux/v1.0/src/exe
   /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/author.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
@@ -575,6 +586,11 @@ CMakeFiles/eg.dir/src/execute/execute.c.o: /home/eyk/1code/EngLinux/v1.0/src/exe
   /home/eyk/1code/EngLinux/v1.0/include/display/find_help.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/lexer/lexer.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
@@ -684,6 +700,7 @@ CMakeFiles/eg.dir/src/execute/execute.c.o: /home/eyk/1code/EngLinux/v1.0/src/exe
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/eg.dir/src/execute/execute_four_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_four_token.c \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/display.h \
@@ -884,6 +901,10 @@ CMakeFiles/eg.dir/src/execute/execute_three_token.c.o: /home/eyk/1code/EngLinux/
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/display.h \
@@ -891,12 +912,10 @@ CMakeFiles/eg.dir/src/execute/execute_three_token.c.o: /home/eyk/1code/EngLinux/
   /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/execute_three_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/parser_third_token.h \
@@ -969,6 +988,10 @@ CMakeFiles/eg.dir/src/execute/execute_three_token.c.o: /home/eyk/1code/EngLinux/
 CMakeFiles/eg.dir/src/execute/execute_two_token.c.o: /home/eyk/1code/EngLinux/v1.0/src/execute/execute_two_token.c \
   /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/word_set.h \
@@ -978,12 +1001,15 @@ CMakeFiles/eg.dir/src/execute/execute_two_token.c.o: /home/eyk/1code/EngLinux/v1
   /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
-  /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/execute_two_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/help.h \
   /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
-  /home/eyk/1code/EngLinux/v1.0/include/execute/match.h \
   /usr/include/alloca.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
@@ -1619,6 +1645,7 @@ CMakeFiles/eg.dir/src/main.c.o: /home/eyk/1code/EngLinux/v1.0/src/main.c \
   /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/find.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/words.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/author.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
@@ -1629,6 +1656,11 @@ CMakeFiles/eg.dir/src/main.c.o: /home/eyk/1code/EngLinux/v1.0/src/main.c \
   /home/eyk/1code/EngLinux/v1.0/include/display/find_help.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_help.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/print_words.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
+  /home/eyk/1code/EngLinux/v1.0/include/display/error.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h \
+  /home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h \
   /home/eyk/1code/EngLinux/v1.0/include/display/color.h \
   /home/eyk/1code/EngLinux/v1.0/include/lexer/lexer.h \
   /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4.h \
@@ -5118,21 +5150,15 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_v.h:
 
-/home/eyk/1code/EngLinux/v1.0/include/execute/execute_three_token.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/lexer/lexer.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/execute_one_token.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /home/eyk/1code/EngLinux/v1.0/src/display/print_help.c:
 
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_y.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
@@ -5165,10 +5191,6 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_o.c:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/execute_two_token.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/display/error.h:
 
 /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_a.c:
 
@@ -5258,6 +5280,12 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet4/cet4_o.h:
 
+/home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/locale.h:
+
 /home/eyk/1code/EngLinux/v1.0/src/display/display.c:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -5274,15 +5302,11 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/locale.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/is_all_digit.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /home/eyk/1code/EngLinux/v1.0/include/execute/parser_first_token.h:
+
+/usr/include/wctype.h:
 
 /usr/include/signal.h:
 
@@ -5306,8 +5330,6 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 
 /usr/include/alloca.h:
 
-/usr/include/ctype.h:
-
 /usr/include/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
@@ -5320,7 +5342,9 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 
 /home/eyk/1code/EngLinux/v1.0/include/display/display_width.h:
 
-/home/eyk/1code/EngLinux/v1.0/include/execute/execute.h:
+/home/eyk/1code/EngLinux/v1.0/include/display/error.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute_two_token.h:
 
 /home/eyk/1code/EngLinux/v1.0/src/execute/execute.c:
 
@@ -5338,7 +5362,15 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_e.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute_one_token.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -5374,10 +5406,6 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 
 /usr/include/stdc-predef.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/home/eyk/1code/EngLinux/v1.0/include/execute/parser_second_token.h:
-
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
@@ -5408,10 +5436,6 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/home/eyk/1code/EngLinux/v1.0/include/execute/execute_four_token.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/readline/tilde.h:
@@ -5427,6 +5451,18 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /home/eyk/1code/EngLinux/v1.0/src/main.c:
+
+/home/eyk/1code/EngLinux/v1.0/include/lexer/lexer.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute_four_token.h:
+
+/usr/include/ctype.h:
+
+/home/eyk/1code/EngLinux/v1.0/include/execute/execute_three_token.h:
 
 /home/eyk/1code/EngLinux/v1.0/include/execute/help.h:
 
@@ -5451,6 +5487,10 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_m.h:
 
 /home/eyk/1code/EngLinux/v1.0/src/execute/match.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_v.c:
+
+/home/eyk/1code/EngLinux/v1.0/src/execute/parser_first_token.c:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -5611,10 +5651,6 @@ CMakeFiles/eg.dir/src/words_lib/words.c.o: /home/eyk/1code/EngLinux/v1.0/src/wor
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_j.h:
 
 /home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_k.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/execute/parser_first_token.c:
-
-/home/eyk/1code/EngLinux/v1.0/src/words_lib/cet6/cet6_v.c:
 
 /home/eyk/1code/EngLinux/v1.0/include/words_lib/cet6/cet6_k.h:
 

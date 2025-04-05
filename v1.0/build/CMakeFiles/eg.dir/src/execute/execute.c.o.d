@@ -105,7 +105,13 @@ CMakeFiles/eg.dir/src/execute/execute.c.o: \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/display.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../words_lib/words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_words.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../execute/find.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/is_all_digit.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/parser_first_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/../display/color.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/../display/error.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/is_all_digit.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/parser_second_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/execute_three_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/parser_second_token.h \

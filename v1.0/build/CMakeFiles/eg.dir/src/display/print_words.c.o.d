@@ -64,4 +64,9 @@ CMakeFiles/eg.dir/src/display/print_words.c.o: \
  /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../../include/words_lib/word_set.h \
  /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../../include/words_lib/cet6.h \
  /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/display_width.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
+ /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../execute/find.h \
+ /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../execute/../words_lib/words.h \
+ /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../execute/../display/color.h \
+ /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../execute/match.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h /usr/include/wctype.h \
+ /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h

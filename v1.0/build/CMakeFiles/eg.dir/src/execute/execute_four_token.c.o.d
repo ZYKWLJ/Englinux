@@ -75,6 +75,7 @@ CMakeFiles/eg.dir/src/execute/execute_four_token.c.o: \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/../words_lib/words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/color.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/print_words.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../../include/display/../execute/find.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/parser_first_token.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/error.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/parser_second_token.h \

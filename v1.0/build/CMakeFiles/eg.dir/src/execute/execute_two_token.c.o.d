@@ -69,10 +69,17 @@ CMakeFiles/eg.dir/src/execute/execute_two_token.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../../include/words_lib/words.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/display_width.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../execute/find.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../execute/../words_lib/words.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../execute/../display/color.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/../execute/match.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/is_all_digit.h \
  /usr/include/ctype.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/find.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../words_lib/words.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/match.h \
  /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/help.h \
- /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_help.h
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../display/print_help.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/parser_first_token.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/../display/color.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/../display/error.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/is_all_digit.h \
+ /home/eyk/1code/EngLinux/v1.0/src/execute/../../include/execute/../execute/parser_second_token.h

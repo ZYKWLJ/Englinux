@@ -65,4 +65,8 @@ CMakeFiles/eg.dir/src/display/display.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../../include/words_lib/words.h \
- /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/display_width.h
+ /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/display_width.h \
+ /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../execute/find.h \
+ /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../execute/../words_lib/words.h \
+ /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../execute/../display/color.h \
+ /home/eyk/1code/EngLinux/v1.0/src/display/../../include/display/../execute/match.h

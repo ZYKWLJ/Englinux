@@ -19,4 +19,5 @@ int find_suffix(const char *str, int library_index, word_entry *result);
 int contains_match(const char *str,const char *sub_str);
 
 int find_contain(const char *str, int library_index, word_entry *result);
+int find_contain_chinese(const char *str, int library_index, word_entry *result);
 #endif

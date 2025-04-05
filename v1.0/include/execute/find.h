@@ -9,4 +9,5 @@
 #include "match.h"
 // extern word_entry **library[LIB_NUM];
 word_entry *find(char *str, int library_index, int search_mod, word_entry *result,int* result_size);
+int isAllChinese(const char *str);
 #endif

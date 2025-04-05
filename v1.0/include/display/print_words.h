@@ -9,6 +9,7 @@
 #include "color.h"
 #include"../../include/words_lib/words.h"
 #include"display_width.h"
+#include"../execute/find.h"
 
 void print_words(word_entry *words, int word_count,char*str,int match_mod,
                  int firstcol_show, int secondcol_show,

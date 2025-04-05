@@ -186,3 +186,27 @@ int find_contain(const char *str, int library_index, word_entry *result)
     result = NULL; // 结尾标记！
     return count;
 }
+
+
+int find_contain_chinese(const char *str, int library_index, word_entry *result)
+{
+    int count=0;
+    for (int i = 0; library[library_index][i] != NULL; i++)
+    {
+        for (int j = 0; library[library_index][i][j].index != NULL; j++)
+        {
+            if (contains_match(library[library_index][i][j].meaning, str))//这里变成比较释义了！
+            {
+                count++;
+                // printf("单词%s匹配成功\n", library[library_index][i][j].word);
+                result->index = library[library_index][i][j].index;
+                result->word = library[library_index][i][j].word;
+                result->phonetic = library[library_index][i][j].phonetic;
+                result->meaning = library[library_index][i][j].meaning;
+                result++;
+            }
+        }
+    }
+    result = NULL; // 结尾标记！
+    return count;
+}

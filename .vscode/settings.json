@@ -43,6 +43,7 @@
         "stdlib.h": "c",
         "execute_one_token.h": "c",
         "author.h": "c",
-        "find_help.h": "c"
+        "find_help.h": "c",
+        "execute_two_token.h": "c"
     }
 }
